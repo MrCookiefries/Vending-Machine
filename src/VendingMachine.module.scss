@@ -1,0 +1,24 @@
+.VendingMachine {
+    padding: 1rem;
+}
+
+.Title {
+    font-size: 2.5em;
+}
+
+.Description {
+    font-size: 1.25em;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+.Links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+}
+
+.Link {
+    text-align: center;
+    font-size: 1.5em;
+}
